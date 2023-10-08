@@ -18,10 +18,6 @@ class RailsMentor < Mentor
   
   @@name = '赤出'
   
-  def initialize
-    self.name = name
-  end
-  
   def name
     @@name
   end
