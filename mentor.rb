@@ -16,10 +16,10 @@ end
 
 class RailsMentor < Mentor
   
-  @@name = '赤出'
+  @@type = '赤出'
   
   def name
-    @@name
+    @@type
   end
   
   def job
