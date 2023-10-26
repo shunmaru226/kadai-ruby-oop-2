@@ -2,11 +2,7 @@ class Mentor
   attr_accessor :name
   
   def initialize
-    self.name = name
-  end
-  
-  def name
-    '煌木'
+    self.name = '煌木'
   end
   
   def job
